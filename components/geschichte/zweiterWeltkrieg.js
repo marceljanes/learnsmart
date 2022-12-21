@@ -1,7 +1,7 @@
 import FaktenBanner from "../karten/faktenBannerComponent"
 import AngriffPolen from '../../public/neuzeit/angriffpolen.jpg'
 import Hitler from '../../public/neuzeit/adolfhitler.png'
-import Russland from '../../public/neuzeit/Russland.jpg'
+import Russland from '../../public/neuzeit/russland.jpg'
 import Normandie from '../../public/neuzeit/normandie2.png'
 import PictureBanner from "../karten/pictureBannerComponent"
 
