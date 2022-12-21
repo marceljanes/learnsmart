@@ -1,6 +1,6 @@
-import Navbar from "../../components/navbar"
-import GeschichteNavbar from "../../components/geschichte/geschichteNavbar"
-import ZweiterWeltkriegComponent from "../../components/geschichte/zweiterWeltkrieg"
+import Navbar from "../../../components/navbar"
+import GeschichteNavbar from "../../../components/geschichte/geschichteNavbar"
+import ZweiterWeltkriegComponent from "../../../components/geschichte/zweiterWeltkrieg"
 
 
 

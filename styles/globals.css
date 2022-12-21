@@ -62,10 +62,10 @@ a {
 
 @layer components {
   h1 {
-    @apply text-xl font-bold text-purple-400 
+    @apply text-xl font-bold text-purple-400 mt-5
   }
   h2 {
-    @apply text-xl font-bold text-purple-400 mt-5
+    @apply text-xl font-bold text-purple-400 mt-5 mb-5
   }
 
   p {

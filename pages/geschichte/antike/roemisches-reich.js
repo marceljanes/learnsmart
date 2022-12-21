@@ -1,6 +1,6 @@
-import Navbar from "../../components/navbar"
-import RömischesReichComponent from "../../components/geschichte/römischesReichComponent"
-import GeschichteNavbar from "../../components/geschichte/geschichteNavbar"
+import Navbar from "../../../components/navbar"
+import RömischesReichComponent from "../../../components/geschichte/römischesReichComponent"
+import GeschichteNavbar from "../../../components/geschichte/geschichteNavbar"
 
 
 

@@ -176,7 +176,7 @@ export default function Navbar(props) {
             <main className="relative z-0 flex-1 overflow-y-auto focus:outline-none xl:order-last">
               {/* Start main area*/}
               <div className="absolute inset-0 py-6 px-4 sm:px-6 lg:px-8">
-                <div className="min-h-screen rounded-lg p-6 4xl:w-1/2">
+                <div className="min-h-screen rounded-lg p-6 2xl:w-1/2">
                   {props.mobile}
                   {props.right}
                     
@@ -185,13 +185,25 @@ export default function Navbar(props) {
               </div>
               {/* End main area */}
             </main>
-            <aside className="relative hidden w-96 flex-shrink-0 overflow-y-auto border-r-4 border-r-purple-200 xl:order-first xl:flex xl:flex-col">
+            <aside className="relative hidden w-96 flex-shrink-0 overflow border-r-4 border-r-purple-200 xl:order-first xl:flex xl:flex-col">
               {/* Start secondary column (hidden on smaller screens) */}
               <div className="absolute inset-0 py-6 px-4 sm:px-6 lg:px-8">
                 <div className="h-full rounded-lg pt-3">
                  {props.left}
 
                 </div>
+                <div className="absolute h-screen w-5 right-0 bg-gray-600 top-0">
+                  
+                </div>
+                <div className="top-1/2 w-[100PX] right-4 bg-gray-600 absolute text-xs flex flex-row justify-center items-center ">
+                  <div>1000 nach C.</div>
+
+                  </div>
+                  <div className="top-1/4 w-[100PX] right-4 bg-gray-600 absolute text-xs flex flex-row justify-center items-center ">
+                   <div className="">500 nach C.</div>
+
+                  </div>
+                
               </div>
               {/* End secondary column */}
             </aside>
