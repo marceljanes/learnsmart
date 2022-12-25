@@ -1,5 +1,5 @@
 import Image from "next/image"
-export default function PictureBanner({picture, text, left}) {
+export default function PictureBanner({picture, text, left, title}) {
     return (
         <>
         {left ? <div className="relative flex flex-col md:flex-row mt-10 mb-10 h-full">
@@ -16,9 +16,9 @@ export default function PictureBanner({picture, text, left}) {
             
         </div> :
         <div className="relative flex flex-col md:flex-row mt-10 mb-10 h-full">
-            <div className="bg-zinc-600 w-full h-50 p-10 text-gray-400">
-                {text}
-            
+            <div className="bg-zinc-600 w-full h-50 p-10 text-gray-400">                
+                <p className="mt-0">{text}</p>
+                <p className="italic text-xs">Foto: {title}</p>
             </div>
             <div className="relative flex flex-col justify-center">
                 <div className="w-full h-full absolute bg-purple-400 z-10 opacity-25"></div>
