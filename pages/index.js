@@ -37,13 +37,13 @@ export default function Index() {
       .then(res => {
         console.log(res.data)
         function removeLettersUntilSehr(str) {
-          // Find the index of the first occurrence of the word "Sehr" in the string
+          
           const index = str.indexOf('Sehr');
-          // If "Sehr" is not found, return the original string
+          
           if (index === -1) {
             return str;
           }
-          // Otherwise, return the substring starting from the index of "Sehr"
+          
           return str.substring(index);
         }
         setText(removeLettersUntilSehr(res.data))
@@ -95,13 +95,13 @@ export default function Index() {
               
               <div className="mb-4 w-full">
                 <label className="block text-gray-400 text-sm mb-2" for="skills">
-                  Benenne deine Stärken (z.B. "starke analytische Fähigkeiten")
+                  Benenne deine Stärken (z.B. 'starke analytische Fähigkeiten')
                 </label>
                 <input onChange={(e) => setSkills(e.target.value)} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="skills" type="text" placeholder="Deine Stärken" />
               </div>              
               <div className="mb-4 w-full">
                 <label className="block text-gray-400 text-sm  mb-2" for="sonstiges">
-                  Nenne hier Sonstiges, was wichtig ist, z.B: "Ich habe schon zwei große Projekte erfolgreich abgeschlossen und einen TOEFL-Test"
+                  Nenne hier Sonstiges, was wichtig ist, z.B: 'Ich habe schon zwei große Projekte erfolgreich abgeschlossen und einen TOEFL-Test'
                 </label>
                 <input onChange={(e) => setSonstiges(e.target.value)} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="sonstiges" type="text" placeholder="Sonstige wichtige Informationen, die erwähnt werden sollen" />
               </div>
@@ -118,7 +118,7 @@ export default function Index() {
             {running && 
             <div>
               <p className="animate-pulse text-xl font bold mb-10 font-bold"> Die AI schreibt gerade deinen Text...</p>
-            <div><Image className="border-2 border-orange-600" width={300} src={walk1} /></div>
+            <div><Image className="border-2 border-orange-600" width={300} src={walk1} alt='Waiting Robot' /></div>
             </div>}
             {text && <div className="p-10"><Markup content={text} /></div>}
 
