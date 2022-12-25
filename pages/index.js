@@ -95,13 +95,13 @@ export default function Index() {
               
               <div className="mb-4 w-full">
                 <label className="block text-gray-400 text-sm mb-2" for="skills">
-                  Benenne deine Stärken (z.B. 'starke analytische Fähigkeiten')
+                  Benenne deine Stärken (z.B. starke analytische Fähigkeiten)
                 </label>
                 <input onChange={(e) => setSkills(e.target.value)} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="skills" type="text" placeholder="Deine Stärken" />
               </div>              
               <div className="mb-4 w-full">
                 <label className="block text-gray-400 text-sm  mb-2" for="sonstiges">
-                  Nenne hier Sonstiges, was wichtig ist, z.B: 'Ich habe schon zwei große Projekte erfolgreich abgeschlossen und einen TOEFL-Test'
+                  Nenne hier Sonstiges, was wichtig ist, z.B: Ich habe schon zwei große Projekte erfolgreich abgeschlossen und einen TOEFL-Test
                 </label>
                 <input onChange={(e) => setSonstiges(e.target.value)} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="sonstiges" type="text" placeholder="Sonstige wichtige Informationen, die erwähnt werden sollen" />
               </div>
