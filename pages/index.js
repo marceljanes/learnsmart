@@ -95,7 +95,7 @@ export default function Index() {
               
               <div className="mb-4 w-full">
                 <label className="block text-gray-400 text-sm mb-2" for="skills">
-                  Benenne deine Stärken (z.B. starke analytische Fähigkeiten)
+                  Benenne deine Stärken z.B. starke analytische Fähigkeiten
                 </label>
                 <input onChange={(e) => setSkills(e.target.value)} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="skills" type="text" placeholder="Deine Stärken" />
               </div>              
