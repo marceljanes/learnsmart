@@ -3,8 +3,8 @@ export default async function  handler(req, res) {
     const {name, unternehmen, stelle, skills, sonstiges, ausbildung} = req.body
     
     
-    const configuration = new Configuration({
-    apiKey: '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',
+    const configuration = new Configuration({    
+    apiKey: process.env.API_KEY,
     });
     const openai = new OpenAIApi(configuration);
     const response = await openai.createCompletion({
